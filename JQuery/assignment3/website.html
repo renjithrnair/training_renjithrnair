@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>jabong</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/login.css">
+</head>
+<body onload="store()">
+
+	<div id="id01" class="modal">
+ 
+ <form class="modal-content animate" action="">        <div class="imgcontainer">
+            <h3>SIGN IN</h3>NOT REGISTERED?<a href="">SIGN UP</a>
+            <span  class="close" title="Close Modal">&times;</span>    
+        </div>
+        <div class="container">
+            <div class="containerleft">
+              <input type="text" placeholder="Email" name="uname" required>
+              <input type="password" placeholder="Password" name="psw" required>
+              <div class="psw"><a href="#">Forgot password?</a></div>
+              <button type="submit">SIGN IN</button>    
+            </div>            <div class="containerright">
+                   <a href=""><img src="images/google.png" alt="signingoogle"></a>
+                <a href=""><img src="images/fb.png" alt="signinfb"></a>
+            </div>
+        </div>
+ </form>
+</div>
+
+	<div class="top">
+		<a href=""><img class="img1" src="images/img1.png"></a>
+		<a href=""><img class="img2" src="images/img2.png"></a>
+		<img class="mobile" src="images/mobile.png">
+		<ul>
+			<li><a href="">DOWNLOAD APP</a></li>
+			<li><a href="">HELP/SUPPORT</a></li>
+			<li><a href="">TRACK ORDER </a></li>
+			<li id="signin">SIGNIN</li>
+			<li><a href="">SIGN UP </a></li>
+		</ul>
+		<br>
+	</div>
+	<div id="navbar" class="nav">
+		<img class="jabong" src="images/jabong.png">
+		<div class="menu">
+			<br>
+		<ul>
+			<li><a href="">WOMEN</a></li>
+			<li><a href="">MEN</a></li>
+			<li><a href="">KIDS</a></li>
+			<li><a href="">ACCESSORIES</a></li>
+			<li><a href="">SPORTS</a></li>
+			<li><a href="">THE JUICE</a></li>
+		</ul>
+		</div>
+		<div class="search">
+			<div class="in">
+			<input type="text" placeholder="   BE YOU.SEARCH YOUR STYLE"  name="">
+			<a href=""><img class="inputimage" src="images/search.png"></a>
+			</div>
+			<div class="cart">
+			<a href=""><img src="images/love.png"></a>
+		<img id="item" src="images/cart.png">
+		<div class="hoveritem">
+			<span>Item: </span>
+			<span id="cartcontent1"></span>
+			<br>
+			<span id="cartcontent2"></span>
+			<br>
+			<span>Quantity : </span>
+			<span id="cartcontent3"></span>
+			<br>
+			<span>Total Amount:</span>
+			<span id="cartcontent4"></span>
+			
+		</div>
+			</div>
+			<span id="itemcount"></span>
+		</div>
+		
+		
+	</div>
+	<div class="product">
+		<div id="slider">
+  		<a href="#" class="control_next">></a>
+  		<a href="#" class="control_prev"><</a>
+  		<ul>
+    	<li><img src="images/one.png"></li>
+    	<li><img src="images/two.png"></li>
+    	<li><img src="images/three.png"></li>
+    	<li><img src="images/four.png"></li>
+    	<li><img src="images/five.png"></li>
+    	<li><img src="images/six.png"></li>
+    	<li><img src="images/seven.png"></li>
+    	<li><img src="images/eight.png"></li>
+  		</ul>  
+		</div>
+		<div class="productinfo">
+			<span id="brand">Adidas</span>
+			<br>
+			<span id="producttitle">Nemeziz 17.4 Tf White Football Shoes</span>
+			<br>
+			<span id="standardprice"><strike>Rs.3999</strike></span>
+			<span id="actualprice">Rs.2000</span>
+			<span id="discount">(-50%)</span>
+			<br>
+			<span id="gst">(Additional GST, if applicable, will be charged at checkout.)</span>
+			<br>
+			<br>
+			<span id="size">Size</span>
+			<br>
+			<br>
+			<div>
+			<select class="select">
+				<option selected disabled>----Select----</option>
+				<option value="34">34</option>
+				<option value="36">36</option>
+
+			</select>
+			</div>
+			<br>
+			<br>
+			<div class="addtobag">
+		    <div class="btn">
+			<button class="cartbutton" onclick="cartbtn()">ADD TO BAG</button>
+			</div>
+			<div class="like">
+				<a href=""><img id="wishlist" src="images/wishlist.png"></a>
+			</div>
+			</div>
+
+		</div>
+		
+	    <button id="remove" onclick="remove()">Remove Item</button>
+	</div>
+		
+	<div class="info">
+			<div class="info1">
+				<h3>PRODUCT INFO & CARE</h3>
+				<img id="logo" src="images/adidas.jpg">
+				<p id="description">Crafted to perfection with studs for superior ball control and firm grip on artificial grass and hard ground, this pair of white ‘Nemeziz 17.4 TF’ football shoes from adidas will let your little buddy be the champion of every match. Effortlessly stylish for its all-over graphic stripes and eye-catching 3-stripes, this pair of shoes has flexible, traction-configured synthetic upper that ensure ultimate ball control. It also has breathable mesh lining and comfortable rubber sole and Nemeziz and adidas branding at the back.</p>
+				<br>
+				
+				<table class="specification">
+					<tr>
+						<td id="spec">Sole Material</td>
+						<td>Rubber</td>
+					</tr>
+					<tr>
+						<td id="spec">Inner Lining</td>
+						<td>Mesh</td>
+					</tr>
+					<tr>
+						<td id="spec">Closing</td>
+						<td>Lace-Ups</td>
+					</tr>
+					<tr>
+						<td id="spec">Tip shape</td>
+						<td>Round</td>
+					</tr>
+					<tr>
+						<td id="spec">Product warranty</td>
+						<td>3 month</td>
+					</tr>
+					<tr>
+						<td id="spec">Shoe Care</td>
+						<td>Surface Dirt can be cleaned with a good quality brush or a damp cloth.</td>
+					</tr>
+					<tr>
+						<td id="spec">Fit</td>
+						<td>Regular</td>
+					</tr>
+					<tr>
+						<td id="spec">Color</td>
+						<td>White</td>
+					</tr>
+					<tr>
+						<td id="spec">Upper Material Details</td>
+						<td>Synthetic</td>
+					</tr>
+					<tr>
+						<td id="spec">SKU</td>
+						<td>AD004SH43FXHINDFAS</td>
+					</tr>
+					
+				</table>
+			</div>
+			<div class="similarpicks">
+				<h3>SIMILAR PICKS</h3>
+				<div class="sg">
+				<div class="suggestion">
+				<a href="">
+				<img src="images/suggestion1.jpg">
+				<br>	
+				<span id="sgproduct">Adidas X 16.4 Fxg White Football Shoes</span>
+				<br>
+				<span id="sgstandardprice"><strike>Rs.3999</strike></span>
+				<span id="sgactualprice">Rs.2000</span>
+				<span id="sgdiscount">(-50%)</span>
+				</div>
+				<div class="suggestion">
+				<img src="images/suggestion2.jpg">
+				<br>	
+				<span id="sgproduct">Adidas X 16.4 Fxg White Football Shoes</span>
+				<br>
+				<span id="sgstandardprice"><strike>Rs.3999</strike></span>
+				<span id="sgactualprice">Rs.2000</span>
+				<span id="sgdiscount">(-50%)</span>
+				</a>
+				</div>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				</div>
+
+				<div class="sg">
+				<div class="suggestion">
+				<a href="">
+				<img src="images/suggestion3.jpg">
+				<br>	
+				<span id="sgproduct">Adidas X 16.4 Fxg White Football Shoes</span>
+				<br>
+				<span id="sgstandardprice"><strike>Rs.3999</strike></span>
+				<span id="sgactualprice">Rs.2000</span>
+				<span id="sgdiscount">(-50%)</span>
+				</div>
+				<div class="suggestion">
+				<img src="images/suggestion4.jpg">
+				<br>	
+				<span id="sgproduct">Adidas X 16.4 Fxg White Football Shoes</span>
+				<br>
+				<span id="sgstandardprice"><strike>Rs.3999</strike></span>
+				<span id="sgactualprice">Rs.2000</span>
+				<span id="sgdiscount">(-50%)</span>
+			    </a>
+				</div>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				</div>
+
+			</div>
+		</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="js/script.js"></script>
+<script src="js/login.js"></script>
+
+</body>
+</html>

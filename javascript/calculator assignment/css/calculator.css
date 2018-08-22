@@ -1,0 +1,28 @@
+.btn
+{
+	background-color: #d89561;
+	border-radius: 5px;
+	width: 80px;
+	height: 80px;
+}
+.btn:hover
+{
+	background-color: #ebef7a;
+}
+.display
+{
+
+	border-radius: 5px;
+	width: 300px;
+	margin-left: 60px;
+	background-color: #dee6f2;
+	height: 50px;
+}
+
+
+section
+{
+	margin-left: 400px;
+	margin-top: 150px;
+	
+}

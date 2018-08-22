@@ -1,0 +1,91 @@
+.nv
+{
+	margin: 0px;
+}
+.top
+{
+ font-family: Allura;
+ font-size: 30px;
+ font-weight: 700;
+ color: white;
+}
+.first
+{
+	background-color: #f1f1f1; 
+	padding-bottom: 50px;
+	padding-top: 20px;
+}
+.first p
+{
+	text-align: justify;
+	float: left;
+	/*width: 550px;*/
+	
+}
+.first img
+{
+	
+	padding-left: 70px;
+	padding-top: 50px;
+}
+
+.link
+{
+	text-decoration: none;
+	color: white;
+	background-color: #fe914a;
+	border-radius: 5px;
+	padding: 5px;
+    
+}
+
+.secondhead
+{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 20px;
+	font-weight: 700px;
+}
+
+p
+{
+	text-align: justify;
+	
+}
+
+.bottom
+{
+	background-color: #333333;
+}
+.bottom h4
+{
+	color:  white;
+	font-style: bold;
+
+}
+.bottom h5
+{
+	color: white;
+	font-style: bold;
+}
+.bottom h6
+{
+	color: white;
+	font-size: 10px;
+}
+.bottom p
+{
+	/*width: 150px;*/
+	font-size: 12px;
+	color: white;
+}
+.bottom a
+{
+	text-decoration: none;
+	color: white;
+}
+.newspara p
+{
+	/*width: 300px;*/
+
+}

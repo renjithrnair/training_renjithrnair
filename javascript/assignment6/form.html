@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>js</title>
+	<link rel="stylesheet" type="text/css" href="css/form.css">
+	<script type="text/javascript" src="js/form.js"></script>
+</head>
+<body>
+	<form name="myform" onsubmit="return valid()" class="form">
+		<h1>Registration</h1>
+		<br>
+
+		<table>
+			<tr>
+				<td><label>Name : </label></td>
+				<td><input type="text" name="text1" id="name"></td>
+				<td><span id="name1"></span></td>
+			</tr>
+			
+
+			<tr>
+				<td><label>E-mail : </label></td>
+				<td><input type="text" name="text3" id="mail"></td>
+				<td><span id="mail1"></span></td>
+			</tr>
+			
+			
+			<tr>
+				<td><label>Country  : </label></td>
+				<td><select id="country" onchange="regshow()"><option disabled selected>--Select--</option>
+									</select></td>
+				<td><span id="country"></span></td>
+			</tr>
+
+			<tr>
+				<td><label>Region(state) : </label></td>
+				<td><select id="region"></select><td>
+				
+			</tr>
+			<tr>
+				<td><span id="success"></span></td>
+			</tr>
+
+		</table>
+		<br>
+		<br>
+		<button type="button" onclick="valid()" class="submit">Submit</button>
+		<button type="reset"  class="clear" onclick="blank()"> Clear </button>
+		<br>
+		<br>
+			
+		
+	</form>
+</body>
+</html>

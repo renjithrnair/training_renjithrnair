@@ -1,0 +1,40 @@
+.signal
+{
+    border: 10px solid #a9cae8;
+    padding: 50px;
+    width: 100px;
+    background-color: black;
+}
+
+.signal div
+{
+	width:100px;
+    height: 100px;
+    border-radius: 50%;
+    
+}
+
+.red
+{
+	background-color: red;
+	opacity: .3;
+}
+
+.yellow
+{
+	background-color: yellow;
+	opacity: .3;
+}
+
+.green
+{
+	background-color: green;
+	opacity: .3;
+}
+
+section
+{
+	margin-top: 150px;
+	margin-left: 500px;
+}
+

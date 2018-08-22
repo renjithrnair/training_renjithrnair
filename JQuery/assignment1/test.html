@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>js</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	
+	
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css" rel="stylesheet" />
+
+	
+</head>
+<body>
+	<form name="myform" class="form">
+		<h1>Registration</h1>
+		<br>
+
+		<table>
+			<tr>
+				<td><label>Name : </label></td>
+				<td><input type="text" name="name" id="name"></td>
+				<td><span id="nameerror">Enter valid name</span></td>
+			</tr>
+			<tr>
+				<td><label>E-mail  : </label></td>
+				<td><input type="E-mail" name="email" id="email"></td>
+				<td><span id="mailerror">Enter valid mail</span></td>
+			</tr>
+			<tr>
+				<td><label>Mobile : </label></td>
+				<td><input type="mobile" name="mobile" id="mobile"></td>
+				<td><span id="mobileerror">Enter valid mobile number</span></td>
+			</tr>
+
+			<tr>
+				<td><label>Date of birth : </label></td>
+				<td><input type="Date" name="dob" id="dob" required="required"></td>
+				<td><span id="doberror">Enter valid dob</span></td>
+			</tr>
+
+			<tr>
+				<td><label>Age : </label></td>
+				<td><input type="text" name="age" id="age"></td>
+				<td><span id="ageerror">Enter valid age</span></td>
+			</tr>
+
+			<tr>
+				<td><label>Country : </label></td>
+				<td><select class="js-example-basic-single" id="country" required>
+					<option value=""></option>
+					<option>Afghanistan</option>
+					<option>Albania</option>
+					<option>Bahrain</option>
+					<option>Bangladesh</option>
+					<option>China</option>
+					<option>India</option>
+					<option>Egypt</option>
+					<option>Malaysia</option>
+					<option>Serbia</option>
+					<option>Zimbabwe</option>
+				</select></td>
+				<td><span id="countryerror">Enter country</span></td>
+			</tr>
+			<tr>
+				<td><span id="success"></span></td>
+			</tr>
+			
+			
+
+		</table>
+		<br>
+		<br>
+		<button type="button" onclick="valid()" class="submit">Submit</button>
+		<button type="reset" onclick="clr()" class="clear"> Clear </button>
+		<br>
+		<br>
+			
+		
+	</form>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/js/select2.min.js"></script>
+	<script src="js/test.js"></script>
+</body>
+</html>
+

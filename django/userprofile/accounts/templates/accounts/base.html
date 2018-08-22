@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<h1>Welcome {{ user.username }}</h1>
+<a href="{%url 'posts:create_post'%}">Create Post</a>
+<a href="{%url 'accounts:profile'%}">Profile</a>
+<form action="{%url 'accounts:logout'%}" method="post">
+{% csrf_token %}
+<input type="submit" value="Logout">
+</form>
+{% block content %}
+{% endblock %}
+{% load static %}
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="{%static 'posts/js/main.js'%}" type="text/javascript"></script>
+</body>
+</html>
+
+
+
+

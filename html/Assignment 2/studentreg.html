@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>registraion form</title>
+	<style type="text/css">
+	body {
+           
+         }
+th,td {
+    text-align: left;
+    padding: 8px;
+}
+td {
+    width: 200px;
+}
+
+.submit{
+    font-size: large;
+    background-color: #493a96;
+    color: white;
+    padding: 9px 20px;
+    border-radius:10px;
+    
+    cursor: pointer;
+    
+    }
+    .submit:hover {
+        background-color: red;
+    }
+    .clear{
+    font-size: large;
+    background-color: #493a96;
+    color: white;
+    padding: 9px 20px;
+    border-radius:10px;
+    cursor: pointer;
+    
+    }
+        .clear:hover
+        {
+         background-color:red;
+        }
+.form{
+    max-width:900px;
+    margin: 10px auto;
+    border-radius: 8px;
+    background: linear-gradient(to bottom, white,#3b70ef);
+    }
+.h1 {
+    text-align: center; 
+}
+.table {
+    margin-left: 50px;
+}
+</style>
+</head>
+<body>
+	<form class="form">
+      <h1>Register</h1>
+      <table>
+      <tr>
+      <td><label>Name : </label></td>
+      <td><input type="text" name="name" placeholder="enter your name"></td>
+      </tr>
+      
+       <tr>
+       <td><label>Father's Name : </label></td>
+       <td><input type="text" name="fthr" placeholder="father's name"></td>
+       </tr>
+       <tr>
+       <td><label>Guardian's Name : </label></td>
+       <td><input type="text" name="guardian" placeholder="guardian's name"></td>
+       </tr>
+       <tr>
+       <td><label>Gender : </label></td>
+       <td><input type="radio" name="gender" value="male" checked> Male
+       	<input type="radio" name="gender" value="female"> Female</td>
+       
+       <td>
+       </tr>
+       <tr>
+       	<td><label>Date of birth : </label></td>
+       	<td><input type="text" name="dob" placeholder="dd/mm/yy"></td>
+       </tr>
+       <tr>
+       	<td><label>E-mail : </label></td>
+       	<td><input type="email" name="email" placeholder="xyz@example.com"></td>
+       </tr>
+       <tr>
+       <td><label>Address : </label></td>
+      <td><input type="text" name="address" placeholder="address line 1">
+      </br>
+      <input type="text" name="address1" placeholder="address line 2">
+      </td>
+       </tr>
+       <tr>
+       <td><label>District : </label></td>
+       <td><select>
+       	<option disabled selected>-----Select-----</option>
+       	<option>Ernakulam</option>
+       	<option>Kottayam</option>
+       	<option>Thrissur</option>
+       	<option>Calicut</option>
+       	<option>Trivandrum</option>
+       	<option>Pathanamthitta</option>
+       </select></td>
+       </tr>
+       <tr>
+       <td><label>City : </label></td>
+       <td><input type="text" name="city" placeholder="city"></td>  
+       </tr>
+       <tr>
+       	<td>Phone : </td>
+       	<td><input type="text" name="phone" placeholder="mobile number"></td>
+       </tr>
+       <tr>
+       	<td><label>Pincode : </label></td>
+       	<td><input type="text" name="pin" placeholder="pincode"></td>
+       </tr>
+       <tr>
+       	<td><label>Comments : </label></td>
+       	<td><input type="text" name="comments" placeholder="comments"></td>
+       </tr>
+       
+       <tr>
+       	<td><label>Upload photo :</label></td>
+       
+       	<td><input type="file" name="file" name="photo" value="Browse"></td>
+       </tr>
+       <tr>
+       	<td><label>Upload signature :</label></td>
+       
+       	<td><input type="file" name="file" name="photo" value="Browse"></td>
+       </tr>
+       <tr>
+       	<td></td>
+       	<td><input type="submit" name="submit" value="Submit" class="submit"></td>
+       	<td><input type="reset" name="clear" value="Clear" class="clear"></td>
+       </tr>
+       
+    </table>
+    </form>
+
+</body>
+</html>

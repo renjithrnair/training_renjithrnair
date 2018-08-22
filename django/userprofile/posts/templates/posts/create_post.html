@@ -1,0 +1,30 @@
+{%extends "accounts/base.html"%}
+
+{% block content %}
+{% load static %}
+<h1>Create post</h1>
+<form id="post-submit" action="" method="post" enctype="multipart/form-data">
+	{%csrf_token%}
+	<!-- {{form.as_p}} -->
+	<h4>Title : {{form.title}}</h4>
+	<h4>Body : {{form.body}}</h4>
+	<h4>Upload Image : {{ form.image }}</h4>
+	<input type="submit" value="Save">
+</form>
+<h1>Posts</h1>
+<form method='GET' action="">
+	<span><span>Find : </span><input type="text" placeholder="Search posts" name="qry" ><input type="submit" value="Search"></span>	
+</form>
+{%include page_template%}
+{% block js %}
+    {{ block.super }}
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="{% static 'el-pagination/js/el-pagination.js' %}"></script>
+    <script>$.endlessPaginate({paginateOnScroll: true});</script>
+{% endblock %}
+
+
+{% endblock %}
+
+
+

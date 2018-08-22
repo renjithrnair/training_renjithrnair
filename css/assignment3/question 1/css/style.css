@@ -1,0 +1,171 @@
+	section
+		{
+			width: 980px;
+			
+			margin: auto;
+		}
+		body
+		{
+			background-color: black;
+			margin: 0px;
+		}
+		.top
+		{
+           width: 100%;
+           
+           background-color: #313131;
+           
+		}
+		.top img
+		{
+			padding:20px;		
+		}
+
+		.nav
+		{
+			width: 100%;
+			
+			background-color: #666666;
+			font-family: arial;
+
+		}
+		.top a
+		{
+			text-decoration: none;
+			padding: 14px 16px;
+		}
+		span
+		{
+			width: 100px;
+			border-right-color: #000;
+			border-color: #000;
+			color: white;
+			padding: 10px ;
+		}
+		.nav ul
+		{
+			list-style-type: none;
+    		margin: 0;
+    		padding: 0;
+    		overflow: hidden;
+    		background-color: #666666;
+		}
+		.nav li
+		{
+			float: left;
+    		border-right:1px solid #313131;
+
+		}
+		.nav li a
+		{
+			display: block;
+    		color: white;
+    		text-align: center;
+    		padding: 14px 16px;
+    		text-decoration: none;
+		}
+		.middle
+		{
+			width: 100%;
+			background-color: #e5e5e5;
+			display: table;
+		}
+		.left
+		{
+			width: 70%;
+			display: table-cell;
+			margin: 10px;
+			background-color: white;
+					}
+		.right
+		{
+			width: 30%;
+			display: table-cell;
+			background-color: #e5e5e5;
+
+			
+		}
+		.news
+		{
+			width: 100%;
+			/*margin: auto;*/
+			border-bottom: 1px solid black;
+			display: table;
+			margin-left: 10px;
+			padding-bottom: 20px;
+		}
+		.image
+		{
+			width: 160px;
+			height:130px;
+			float: left;
+			background-color: #dddddd;
+			margin-left: 20px;
+			margin-top: 28px;
+			margin-right: 10px;
+
+			
+		}
+		.paragraph
+		{
+			width: 400px;
+			float: left;
+			font-family: arial;
+			font-size: 15px;
+
+		}
+		.paragraph a
+		{
+			text-decoration: none;
+			color: orange;
+
+
+		}
+		.side
+		{
+			margin-left: 10px;
+			margin-right:10px;
+			font-size: 15px;
+
+		}
+		.side ul
+		{
+			text-align: left;
+			list-style-type: none;
+			padding:inherit;
+			margin-left: 10px; 
+		}
+		.sidelink
+		{
+			padding-right: 10px;
+		}
+		.sidelink ul
+		{
+			list-style-type: none;
+		}
+		.sidelink a
+		{
+			text-decoration:none;
+			color: orange;
+			
+		}
+		.bottom
+		{
+			text-align: center;
+			background-color: #313131;
+			width: 96%;
+			
+			color: white;
+			padding: 20px;
+		}
+		.bottom a
+		{
+			text-decoration: none;
+			color: orange;
+		}
+		.bottom p
+		{
+			padding-top: 10px;
+		}
+
+		

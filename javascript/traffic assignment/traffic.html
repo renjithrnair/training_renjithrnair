@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>traffic</title>
+	<link rel="stylesheet" type="text/css" href="css/traffic.css">
+</head>
+<body>
+	<section>
+	<div class="signal">
+		<div id="red" class="red"></div>
+		<div id="yellow" class="yellow"></div>
+		<div id="green" class="green"></div>
+	</div>
+	<br>
+	<button type="button" onclick="normal(1)">Normal</button>
+	<button  type="button" onclick="off('test')">Off</button>
+	<button type="button" onclick="greenOnly()">Just Green</button>
+	<br>
+	<button type="button" onclick="redOnly()">Just Red</button>
+	<button type="button" onclick="blinkYellow(1)">Blink Yellow</button>
+	</section>
+	<script type="text/javascript" src="js/traffic.js"></script>
+</body>
+</html>

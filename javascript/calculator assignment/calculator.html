@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <script type="text/javascript" src="js/calculator.js"></script> 
+            <link rel="stylesheet" href="css/calculator.css" />
+        </head>
+        <body>
+        <form class="calcForm" name="calculator">
+          <section>
+            <input type="text" class="display" id="display" />
+            <br>
+            <br>
+            <div>
+                <input type="button" class="btn" value="7" onclick="input('7')" />
+                <input type="button" class="btn" value="8" onclick="input('8')" />
+                <input type="button" class="btn" value="9" onclick="input('9')" />
+                <input type="button" class="btn" value="+" onclick="input('+')" />
+                <input type="button" class="btn" value="(" onclick="input('(')" />
+            </div>
+            <div>
+                <input type="button" class="btn" value="4" onclick="input('4')" />
+                <input type="button" class="btn" value="5" onclick="input('5')" />
+                <input type="button" class="btn" value="6" onclick="input('6')" />
+                <input type="button" class="btn" value="-" onclick="input('-')" />
+                <input type="button" class="btn" value=")" onclick="input(')')" />
+            </div>
+            <div>
+                <input type="button" class="btn" value="1" onclick="input('1')" />
+                <input type="button" class="btn" value="2" onclick="input('2')" />
+                <input type="button" class="btn" value="3" onclick="input('3')" />
+                <input type="button" class="btn" value="x" onclick="input('*')" />
+                <input type="button" class="btn" value="%" onclick="input('%')" />
+            </div>
+            <div>
+                <input type="button" class="btn" value="0" onclick="input('0')" />
+                <input type="button" class="btn" value="C" onclick="clearDisplay()"/>
+                <input type="button" class="btn" value="=" onclick="calculate('=')"/>
+                <input type="button" class="btn" value="/" onclick="input('/')" />
+                <input type="button" class="btn" value="." onclick="input('.')" />
+            </div>
+          </section>  
+        </form>
+    </body>
+</html>
+

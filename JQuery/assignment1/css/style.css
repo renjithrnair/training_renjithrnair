@@ -1,0 +1,59 @@
+span
+{
+	color: red;
+}
+th,td {
+    text-align: left;
+    padding: 8px;
+}
+td {
+    width: 200px;
+}
+h1
+{
+	margin-left: 150px;
+}
+
+table
+{
+	margin-left: 150px;
+}
+.form{
+    max-width:900px;
+    margin: 10px auto;
+    border-radius: 8px;
+    background: linear-gradient(to bottom, white,#42f4a1);
+    }
+    .submit{
+    font-size: medium;
+    background-color: #658e7b;
+    color: white;
+    padding: 9px 10px;
+    border-radius:10px;
+    margin-left: 250px;
+    cursor: pointer;
+    
+    }
+    .submit:hover {
+        background-color: black;
+    }
+
+    .clear
+    {
+    	font-size: medium;
+    background-color: #658e7b;
+    color: white;
+    padding: 9px 10px;
+    border-radius:10px;
+    margin-left: 50px;
+    cursor: pointer;
+    }
+
+    .clear:hover
+    {
+    	background-color: black;
+    }
+    .js-example-basic-single
+    {
+
+    }

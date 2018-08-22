@@ -1,0 +1,9 @@
+{% extends "accounts/base.html" %}
+{% block content %}
+<h3>First Name : {{ user.first_name }}</h3>
+<h3>Last Name : {{ user.last_name }}</h3>
+<h3>Email : {{ user.email }}</h3>
+<form action="{% url 'accounts:profile_edit'%}">
+	<input type="submit" value="Edit Profile">
+</form>
+{% endblock %}

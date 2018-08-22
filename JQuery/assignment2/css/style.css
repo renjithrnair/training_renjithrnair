@@ -1,0 +1,19 @@
+*
+{
+	margin-top:10px; 
+	margin-bottom: 10px;
+}
+body
+{
+	background-color: #262a30;
+	color: white;
+	font-size: 12px;
+	margin-right: 200px;
+	margin-left: 200px;
+}
+
+div
+{
+	width: 800px;
+	text-align: justify-all;
+}

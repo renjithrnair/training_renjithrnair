@@ -1,0 +1,25 @@
+{% load el_pagination_tags %}
+{% load like_tag %}
+<div id="post-list">
+{% paginate 3 list %}
+{% for post in list %}
+<br>
+<h2>{{ post.title }}</h2>
+<br>
+{{post.body}}
+<br>
+{% if post.image %}
+<img src="{{ post.image.url }}" width="250">
+{% endif %}
+<h6>Author : {{post.author}}</h6>
+<h5>{{ post.created_date }}</h5>
+
+<form id="like">
+{%csrf_token%}
+<span>Likes :<span id="like_count{{post.id}}"> {{ post.like_count }}</span></span>
+<br>
+<input type="button" id="{{post.id}}" value="{% like post %}" class="like" />
+</form>
+{% endfor %}
+{%show_more%}
+</div>

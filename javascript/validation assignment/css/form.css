@@ -1,0 +1,55 @@
+span
+{
+	color: red;
+}
+th,td {
+    text-align: left;
+    padding: 8px;
+}
+td {
+    width: 200px;
+}
+h1
+{
+	margin-left: 150px;
+}
+
+table
+{
+	margin-left: 150px;
+}
+.form{
+    max-width:900px;
+    margin: 10px auto;
+    border-radius: 8px;
+    background: linear-gradient(to bottom, white,#3b70ef);
+    }
+    .submit{
+    font-size: medium;
+    background-color: #493a96;
+    color: white;
+    padding: 9px 10px;
+    border-radius:10px;
+    margin-left: 250px;
+    cursor: pointer;
+    
+    }
+    .submit:hover {
+        background-color: red;
+    }
+
+    .clear
+    {
+    	font-size: medium;
+    background-color: #493a96;
+    color: white;
+    padding: 9px 10px;
+    border-radius:10px;
+    margin-left: 50px;
+    cursor: pointer;
+    }
+
+    .clear:hover
+    {
+    	background-color: red;
+    }
